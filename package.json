@@ -1,0 +1,50 @@
+{
+    "name": "cucumber-sisgo-directivas",
+    "version": "1.0.0",
+    "description": "Test",
+    "main": "index.js",
+    "author": "Christian Barahona",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/preset-env": "^7.14.2",
+        "@babel/preset-typescript": "^7.13.0",
+        "@cucumber/cucumber": "^7.2.1",
+        "@cucumber/pretty-formatter": "^1.0.0-alpha.0",
+        "@types/jest": "^26.0.23",
+        "jest-cucumber": "^3.0.1",
+        "ts-node": "^9.1.1",
+        "typescript": "^4.2.4"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "test": "./node_modules/.bin/cucumber-js -p default"
+    },
+    "dependencies": {
+        "axios": "^0.21.1",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-redux": "^7.2.4",
+        "react-scripts": "^4.0.3",
+        "redux": "^4.1.0",
+        "redux-devtools": "^3.7.0",
+        "redux-thunk": "^2.3.0"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
